@@ -16,7 +16,7 @@ function divide() {
 }
 function add() {
     if(num1.value > 0 && num2.value>0) {
-        let ans = num1.value + num2.value;
+        let ans = Number(num1.value) + Number(num2.value);
         answer.innerText = ans;
     } else {
         answer.innerText = "getal is te laag";
